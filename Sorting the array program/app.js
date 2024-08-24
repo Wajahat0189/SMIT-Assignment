@@ -6,16 +6,16 @@ for (var i =0; i<5 ; i++){
 
 
 console.log(arr);
-var arr1 = arr;
+var arr1 = arr.slice();
 
 console.log('Writting the following array into reverse order') ;
 //var arr = [5,8,10,4,3,7,1,6,2,9];
-console.log(arr1)
+// console.log(arr1)
 for( var i=0; i< (arr1.length-1)/2; i++){
     var j = arr1.length-1-i;
-    var temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
+    var temp = arr1[i];
+    arr1[i] = arr1[j];
+    arr1[j] = temp;
 }
 console.log(arr1);
 
