@@ -96,8 +96,8 @@
 // }
 // console.log(device);
 // for (j=device.length-1; j>=0; j--){
-//     console.log(device[j])
-// }
+//     console.log(device.pop());
+// }console.log(device);
 
 //Q9
 // var manufacturers  = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
@@ -108,11 +108,12 @@
 // document.write('</select>')
 
 //Q10
-// var matrix = [[1,2,3],[4,5,6],[7,8,9]];
+// var matrix = [[1,2,3]+"<br>"+[4,5,6]+"<br>"+[7,8,9]];
 // console.log(matrix[0]);
 // document.getElementById('q1').innerHTML = matrix;
 //  console.log(matrix[1]);
 // console.log(matrix[2]);
+// document.getElementById('q10').innerHTML = matrix;
 
 //Q11
 // var i
@@ -255,3 +256,14 @@
 // }
 
 // console.log(updatedParagraph);  // Output: "This is a basic paragraph with a basic example."
+// var para = "My name is wajahat and my student name is also wajahat , wajahat is most common name";
+// var find = "wajahat";
+// var word = para.split(" ");
+// console.log(word);
+// var count=0;
+// for(i=0; i<word.length; i++){
+//     if(word[i] == find){
+//         count++;
+//     }
+// }
+// console.log(count);
