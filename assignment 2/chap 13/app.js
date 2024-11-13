@@ -267,3 +267,74 @@
 //     }
 // }
 // console.log(count);
+
+
+// 12/10/24
+
+// var number = parseFloat(prompt('Enter number'));
+// var roundOff = Math.round(number);
+// var ceilNum = Math.ceil(number);
+// var floorNum = Math.floor(number);
+// alert("Given number is "+ number + "\n" +"Ceiling Number: " + ceilNum+ "\n"+"Roundoff Number: "+ roundOff+ "\n"+ "  floorNum: "+ floorNum);
+
+// var secret  = Math.round(Math.random()*10);
+// for(i=0; i<=Infinity; i++){
+// var num = parseInt(prompt("Guess  the secret number"));
+// if(num == secret){
+//      alert("BINGO ! Correct Answer");
+//     break;
+// }
+// else if(num == secret+1 || num == secret+2){
+//     alert( "Close enough, try again");
+// }
+// else if(num == secret-1 || num == secret-2){
+//     alert( "Close enough, try again");
+// }
+// else{
+//     alert( "Wrong answer, try again");
+// }
+// }
+
+// var string = "My name is wajahat, wajahat live in karachi, wajahat.";
+// console.log(string);
+// newString = string.replace("wajahat", "Osama");
+// console.log(newString);
+// newstring1 = string.replace(/wajahat/g, "Osama");
+// console.log(newstring1);
+// newstring2 = string.replace("osama", "wajahat");
+// console.log(newstring2);
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+//  var now = new Date();
+//  var theDay = now.getDay();
+//  var nameOfToday = dayNames[theDay];
+//  console.log(now);
+
+// var num = 17;
+// var binary  = num.toString(16);
+// console.log(binary);
+function cal(num1,num2,operation){
+    var num1;
+    var num2;
+    var operation;
+if(operation== "+"){
+    r = num1+num2;
+}
+else if(operation== "-"){
+    r = num1-num2;
+}
+else if(operation== "*"){
+    r = num1*num2;
+}
+else if(operation== "/"){
+    r = (num1/num2).toFixed(2);
+}
+else{
+    console.log("Enter the correct operation");
+}
+console.log(r);
+}
+var num1 = parseInt(prompt("Enter first number"));
+var operation = prompt("Enter operation");
+var num2 = parseInt(prompt("Enter second number"));
+cal(num1,num2,operation);
