@@ -30,6 +30,7 @@ function simplification(){
     
 }
 function squareRoot(){
+    simplification()
     if(Number(display.value)){
 display.value = Math.sqrt(display.value);}
 textOnScreen = true;

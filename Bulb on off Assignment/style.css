@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+}
+#bulb{
+    width: 300px;
+    height: 300px;
+}
+button{
+    width: 50px;
+    height: 30px;
+}
